@@ -286,7 +286,7 @@ module tb_baud_rate_gen;
             total_tests = total_tests + 1;
         end
     endtask
-    
+  
     task test_pulse_width;
         begin
             test_number = 4;

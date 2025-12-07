@@ -1,28 +1,7 @@
-# Waveforms / simulation outputs
+sim/
 *.vcd
-*.dump
 *.vvp
-
-# Icarus / simulation products
-tb.out
-
-# Editor / OS
+*.log
+*.out
 .vscode/
-*.swp
-Thumbs.db
-.DS_Store
-
-# Build artifacts
-build/
-
-# Temporary files
-*.tmp
-
-# Node / Python envs (if present)
-node_modules/
-.env
-
-# Large or generated binaries
-*.bin
-*.bit
-*.svf
+*.history

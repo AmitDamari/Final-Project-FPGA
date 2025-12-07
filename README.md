@@ -1,9 +1,15 @@
-# FPGA Final Project
+# FPGA Smart Queue System
 
-## Structure
-- **rtl/**: Source code.
-- **tb/**: Simulation files.
+## Architecture
+- **Platform**: Intel MAX 10 (DE10-Lite)
+- **Soft-Core**: Nios II (Controls complex Logic)
+- **RTL modules**: Handle fast timing (UART, Timers, Debouncing)
 
-## How to Run
-1. Install Icarus Verilog.
-2. Run 'make' in scripts folder.
+## Hardware Structure (hw/rtl)
+- **baud_generator.v**: 9600 bps tick
+- **uart_transmitter.v**: 8N1 Serial Output
+- **main_fsm.v**: Hardware Logic
+- **clock_divider.v**: System heartbeat
+
+## Simulation
+Scripts are in sim/scripts/.

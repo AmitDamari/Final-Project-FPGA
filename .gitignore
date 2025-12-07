@@ -1,7 +1,43 @@
-sim/
+# --- YOUR EXISTING RULES (Simulation & Editor) ---
+# Waveforms / simulation outputs
 *.vcd
+*.dump
 *.vvp
-*.log
 *.out
+
+# Editor / OS
 .vscode/
-*.history
+*.swp
+Thumbs.db
+.DS_Store
+
+# --- NEW FPGA RULES (Quartus / Vivado) ---
+*.log
+*.jou
+*.pb
+*.wdb
+*.str
+*.nav
+*.bit
+*.sof
+*.svf
+/incremental_db/
+/output_files/
+/work/
+.Xil/
+
+# --- NEW SOFTWARE RULES (C Code) ---
+*.elf
+*.hex
+*.o
+*.obj
+/sw/bsp/
+/sw/obj/
+
+# Ignore the specific compiled simulation file
+my_sims
+my_sims.
+
+# Ignore the contents of the sim folder, but keep the folder itself
+sim/*
+!sim/.gitkeep

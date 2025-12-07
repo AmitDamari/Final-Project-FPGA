@@ -11,7 +11,6 @@ module baud_rate_gen #(
     localparam integer DIVISOR = CLK_FREQ / BAUD_RATE;
     
     // Counter to count clock cycles
-    // 32 bits is sufficient for most standard clock/baud combinations
     reg [31:0] counter;
 
     always @(posedge clk or negedge rst_n) begin
@@ -20,7 +19,6 @@ module baud_rate_gen #(
             baud_tick <= 1'b0;
         end else begin
             // Check if counter reached the limit
-            // We count from 0 to DIVISOR - 1
             if (counter >= (DIVISOR - 1)) begin
                 counter <= 0;
                 baud_tick <= 1'b1; // Generate pulse

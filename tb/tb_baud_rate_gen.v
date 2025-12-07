@@ -379,7 +379,7 @@ module tb_baud_rate_gen;
     // =========================================================================
     
     initial begin
-        $dumpfile("baud_comprehensive.vcd");
+        $dumpfile("sim/baud_waveform.vcd");
         $dumpvars(0, tb_baud_rate_gen);
         
         test_number = 0;

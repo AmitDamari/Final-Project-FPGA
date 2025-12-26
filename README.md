@@ -1,7 +1,7 @@
 # FPGA Smart Queue System
 
 ## Architecture
-- **Platform**: Intel MAX 10 (DE10-Lite)
+- **Platform**: Intel MAX 10 (DE10-standrard)
 - **Soft-Core**: Nios II (Controls complex Logic)
 - **RTL modules**: Handle fast timing (UART, Timers, Debouncing)
 

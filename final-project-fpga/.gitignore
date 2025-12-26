@@ -1,4 +1,8 @@
 build/
+*.sof
+*.pof
+*.qpf
+*.qsf
 output_files/
 db/
 incremental_db/
@@ -6,7 +10,3 @@ sim/waves/*.vcd
 *.bak
 *.out
 .vscode/
-*.log
-*.rpt
-*.sof
-*.pof

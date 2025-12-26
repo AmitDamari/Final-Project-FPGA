@@ -1,12 +1,48 @@
+# ===== Quartus Prime Generated =====
 build/
 output_files/
 db/
+qdb/
 incremental_db/
-sim/waves/*.vcd
-*.bak
-*.out
-.vscode/
-*.log
-*.rpt
+greybox_tmp/
+*.jdi
+*.sld
+*.smsg
+*.summary
+*.done
+*.qws
+c5_pin_model_dump.txt
+
+# ===== Quartus Programming Files (regenerated from compile) =====
 *.sof
 *.pof
+
+# ===== Platform Designer (Qsys) Generated =====
+.qsys_edit/
+*_bb.v
+hps_isw_handoff/
+
+# ===== Simulation =====
+sim/waves/*.vcd
+*.wlf
+transcript
+work/
+modelsim.ini
+
+# ===== Software Build Artifacts =====
+*.o
+*.elf
+*.bin
+*.map
+*.objdump
+
+# ===== General / Editor =====
+*.bak
+*.out
+*.log
+*.rpt
+*.tmp
+*~
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,12 +1,63 @@
-build/
-*.sof
-*.pof
-*.qpf
-*.qsf
-output_files/
+#=============================================================================
+# Quartus Generated Files (DO NOT TRACK)
+#=============================================================================
+
+# Database folders
 db/
 incremental_db/
-sim/waves/*.vcd
+
+# Output files
+output_files/
+
+# Report files (can be regenerated)
+*.rpt
+*.smsg
+*.summary
+*.done
+*.jdi
+*.sld
+*.pin
+*.txt
+!README.txt
+
+# Programmer files
+*.cdf
+
+# Backup files
 *.bak
+*.qws
+
+# Compilation output
+*.sof
+*.pof
+*.jic
+*.jam
+*.jbc
+
+#=============================================================================
+# Simulation Files
+#=============================================================================
+sim/waves/*.vcd
+sim/waves/*.wlf
+*.vvp
 *.out
+
+#=============================================================================
+# VS Code / Editor
+#=============================================================================
 .vscode/
+
+#=============================================================================
+# OS Files
+#=============================================================================
+.DS_Store
+Thumbs.db
+
+#=============================================================================
+# IMPORTANT: TRACK THESE FILES (do NOT ignore)
+#=============================================================================
+# de10_standard.qpf  - Project file (TRACK)
+# de10_standard.qsf  - Pin assignments (TRACK)
+# de10_standard.sdc  - Timing constraints (TRACK)
+# hw/rtl/*.v         - Your Verilog source (TRACK)
+# sw/src/*.c         - Your C source (TRACK)

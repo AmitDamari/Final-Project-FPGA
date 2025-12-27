@@ -61,3 +61,7 @@ Thumbs.db
 # de10_standard.sdc  - Timing constraints (TRACK)
 # hw/rtl/*.v         - Your Verilog source (TRACK)
 # sw/src/*.c         - Your C source (TRACK)
+sw/obj/
+sw/bin/
+*.o
+*.d
